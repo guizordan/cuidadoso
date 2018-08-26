@@ -1,0 +1,40 @@
+.enfermeiro{
+  background-image: url('http://blog.facig.edu.br/wp-content/uploads/2018/01/154829-profissional-de-enfermagem-qual-o-perfil-de-um-bom-enfermeiro-780x520.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+body {
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+
+.user {
+  background-image: url('http://3.bp.blogspot.com/-9xy8lO8uqc8/VN_LdHA03ZI/AAAAAAAABZM/utxy8OgcS1c/s1600/usuario.png');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  
+}
+
+body{
+  background-image: url('http://midia.gruposinos.com.br/_midias/jpg/2014/10/15/0902_1510_vale-431610.jpg'), linear-gradient(#eb01a5, #d13531);;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+    opacity: .8; 
+  }
+}

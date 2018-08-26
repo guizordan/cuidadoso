@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
-  root to: 'pages#index'
-  get '/carer/:id/buy', to: 'carers#buy'
+  root to: 'home#index'
+  get '/carers/:id/buy', to: 'carers#buy', as: :carers_buy
+  get '/carers/new', to: 'carers#new'
+  get '/carers/', to: 'carers#index'
+  
 end
