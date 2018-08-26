@@ -23,10 +23,11 @@ body {
 }
 
 body{
-  background-image: url('http://midia.gruposinos.com.br/_midias/jpg/2014/10/15/0902_1510_vale-431610.jpg'), linear-gradient(#eb01a5, #d13531);;
+  background-image: url('https://quemcuida.com.br/blog/wp-content/uploads/2016/01/idosa-quem-cuida-1.jpg'), linear-gradient(#eb01a5, #d13531);;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-clip: content-box;
   &:before {
     content: '';
     position: fixed;
@@ -37,4 +38,8 @@ body{
     background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
     opacity: .8; 
   }
+}
+
+.bg-blue{
+  background: #2D4FAE;
 }

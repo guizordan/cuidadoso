@@ -1,32 +1,25 @@
-<div class="row text-white justify-content-center mt-5">
-  <div class="col-12 text-center mb-3">
-    <h3>Encontre um <mark>Cuidador</mark>.</h3>
+<div class="row text-white justify-content-center mt-3">
+  <div class="col-12 text-center mb-5">
+    <h1>Encontre um <mark>Cuidador</mark>.</h1>
+  </div>
+    <div class="col-12 text-center mb-2">
+    <h4> <strong>1º Passo:</strong>  <br>  
+      Em que cidade você está?
+    </h4>
   </div>
 </div>
 
-<div class="row justify-content-center mt-4">
-  <div class="col-6" >
-    <select class="form-control">
-      <option selected>Enfermeiro(a)</option>
-      <option>Cuidador(a)</option>
-      <option>Fisioterapeuta</option>
+<div class="row justify-content-center mt-2">
+  <div class="col-auto text-white">
+    <select class="form-control custom-select">
+      <option>Palhoça, SC</option>
+      <option>Pedra Branca, SC</option>
+      <option>São José, SC</option>
+      <option>Florianópolis, SC</option>
+      <option>Biguaçu, SC</option>
     </select>
   </div>
-  <div class="col-auto text-white">
-    <ul class="list-unstyled list-inline">
-      <li class="list-inline-item">
-        <strong>em</strong>
-      </li>
-      <li class="list-inline-item">
-        <select class="form-control">
-          <option>Palhoça, SC</option>
-        </select>
-      </li>
-    </ul>
-  </div>
-  <div class="col-1">
-    <button class="btn btn-primary">
-      Ir!
-    </button>
+  <div class="col-auto">
+    <%= link_to "Próximo", carers_you_path, class: "btn btn-primary" %>
   </div>
 </div>

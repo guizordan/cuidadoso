@@ -5,4 +5,6 @@ class CarersController < ApplicationController
     end
     def buy
     end
+    def you
+    end
 end
